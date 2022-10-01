@@ -348,7 +348,7 @@ spec:
     app: frontend
   ports:
   - name: http
-    port: 80
+    port: 8899
     targetPort: 8080
 ---
 apiVersion: apps/v1
